@@ -3,16 +3,16 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
-    
-    color: #303030;
-    font: Verdana, Arial, Sans-Serif;
+    background-color: #ffffff;  
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
 }
 
 
 main {
     margin: 0 auto;
-    width: 700px;
+    width: 900px;
     position: relative;
 }
 
@@ -21,10 +21,27 @@ article {
     text-align: justify;
 }
 
+h2 {
+font-size: 40px;
+margin-bottom: 15px;
+margin-top: 20px;
+}
 
+h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: -12px;
+}
 header {
-    color: skyblue;
+    color: #333333;
     text-align: center;
+    font-weight: bold;
 }
 
 
@@ -39,51 +56,66 @@ footer {
 img.zweefLinks {
     float: left;
     margin-right: 15px;
+    margin-bottom: 15px;
 }
 
+img.zweefrechts {
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px
+    
+}
+
+img.center {
+    margin-top: 15px;
+}
+#map {
+    margin-top: 15px;
+}
 .smalltext {
     font-size: 0.7em;
 }
 
 a {
-    color: skyblue;
+    color: rgb#000000;
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 
 /* navigatiebalk */
 nav ul {
+    position: sticky;
+    top: 0;
+    width: 100%;
     list-style-type: none;
-    margin: auto;
+    margin: 0;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #333333;
     overflow: hidden;
 }
 
 nav ul li {
-    float: left;
+    float:left;
 }
 
 nav li a {
     display: block;
-    color: white;
+    color: #ffffff;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 18px;
     text-decoration: none;
+    font-weight: bold; 
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #111;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: #04aa6d;
 }
-
-
-
-
